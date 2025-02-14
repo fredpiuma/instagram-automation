@@ -1,0 +1,42 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": ["standard"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "space-before-function-paren": "off",
+    "camelcase": ["off", { "properties": "never" }],
+    "prefer-const": "off",
+    "no-unused-vars": "off",
+    "no-tabs": "off",
+    "indent": "off",
+    "semi": "off",
+    "quotes": "off",
+    "no-useless-return": "off",
+    "comma-dangle": "off",
+    "space-in-parens": "off",
+    "lines-between-class-members": "off",
+    "no-use-before-define": "off",
+    "spaced-comment": "off",
+    "accessor-pairs": "off",
+    "import/no-duplicates": "off",
+    "no-void": "off",
+    "array-callback-return": "off",
+    "no-loss-of-precision": "off",
+    "dot-notation": "off",
+    "curly": "off",
+    "eol-last": "off",
+    "import/first": "off",
+    "no-useless-constructor": "off",
+    "keyword-spacing": "off",
+    "no-unmodified-loop-condition": "off"
+  }
+}
